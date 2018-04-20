@@ -1,0 +1,156 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  width: 1280px;
+  margin: auto;
+}
+header {
+  height: 157px;
+}
+.redesSociales {
+  background: #212121;
+  height: 40px;
+}
+#logo {
+  width: 320px;
+  height: 127px;
+  float: left;
+  margin-bottom: 50px;
+  display: inline;
+}
+.menu {
+  background: #323232;
+  color: white;
+  font-size: 20px;
+  width: 1280px;
+  height: 117px;
+  display: inline-block;
+  position: absolute;
+}
+.menu ul {
+  list-style-type: none;
+  padding-top: 30px;
+  float: right;
+}
+.menu li {
+  float:right;
+  position: relative;
+  margin-right: 50px;
+  padding: 3px 6px 3px 6px;
+}
+#registro {
+  width: 20px;
+  height: 20px;
+  float: left;
+  position: relative;
+}
+.slider {
+  height: 425px;
+  background-image: url(../assets/imagen_parallax_prueba.jpg);
+  background-size: cover;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+.slider center {
+  padding-top: 130px;
+}
+.slider #lin1 {
+  font-size: 45px;
+}
+.slider #lin2 {
+  font-size: 80px;
+}
+
+.col1 {
+  position: relative;
+  padding: 50px 20px;
+  width: 600px;
+  float: left;
+}
+.bordeadoVerde {
+  color: white;
+  width: 315px;
+  height: 35px;
+  text-align: center;
+  border-style: solid;
+  border-color: #5ea258;
+  padding: 5px 40px;
+  font-weight: 500;
+  font-size: 30px;
+  color: black;
+}
+.col1 p {
+  color: black;
+  font-weight: 400;
+  font-size: 20px;
+}
+.col2 {
+  position: relative;
+  width: 600px;
+  padding: 50px 20px;
+  float:right;
+}
+.col2 p {
+  color: black;
+  font-weight: 400;
+  font-size: 20px;
+}
+.servicios {
+  padding: 30px 20px;
+  position: relative;
+  height: 600px;
+  background: #5ea258;
+  margin-top: 1000px;
+}
+
+.bordeadoBlanco {
+  color: white;
+  width: 315px;
+  height: 35px;
+  text-align: center;
+  border-style: solid;
+  border-color: white;
+  padding: 5px 40px;
+  margin-bottom: 40px;
+  font-weight: 500;
+  color: black;
+}
+#tituloSer {
+  color: white;
+  font-size: 30px;
+}
+.servicio {
+  position: relative;
+  margin: 5px 40px;
+  width: 330px;
+  float: left;
+}
+#imagenServicio {
+  width: 320px;
+  height: 127px;
+  float: left;
+  margin-bottom: 50px;
+  display: inline;
+}
+.servicios p {
+  color: white;
+  font-size: 20px;
+}
+footer {
+  position: relative;
+  height: 117px;
+  background: #323232;
+}
+
+footer center {
+  padding-top: 50px;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+footer center strong {
+  color: #5ea258;
+  font-size: 20px;
+}
